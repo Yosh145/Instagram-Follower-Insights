@@ -1,4 +1,4 @@
-# IG Helper (Instagram Follower Insights)
+# Instagram Helper (Instagram Follower Insights)
 
 A browser-based tool to analyze your Instagram connections. This script runs entirely in your browser console to compare your **Followers** vs. **Following** lists, identifying who isn't following you back and who you aren't following back.
 
