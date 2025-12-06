@@ -38,7 +38,7 @@
         SLEEP_MAX: 1200,
 
         // wait time on 429 rate limit error (60000ms = 1 minute)
-        COOL_DOWN_MS: 60000,
+        COOL_DOWN_MS: 67000,
 
         // instagram web app id
         APP_ID: "936619743392459",

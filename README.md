@@ -34,6 +34,8 @@ A browser-based tool to analyze your Instagram connections. This script runs ent
 
 9. Console will clear when finished, and output the THESE ACCOUNTS DO NOT FOLLOW YOU BACK and YOU DO NOT FOLLOW BACK THESE ACCOUNTS
 
+> **Errors:** You may see `Cookie “th_eu_pref” has been rejected for invalid domain` & `Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://graph.instagram.com/logging_client_events. (Reason: CORS request did not succeed). Status code: (null)` in logs after the script is ran. This does not effect the output of the script.
+
 ## Features
 
   * **Concurrent Fetching:** Fetches "Followers" and "Following" lists simultaneously for faster execution.
@@ -48,14 +50,14 @@ A browser-based tool to analyze your Instagram connections. This script runs ent
 
 ## API Reference
 
-Once the script is loaded, the `IGHelper` object is exposed globally. You can use the following commands in the console:
+Once the script is loaded, the `II` object is exposed globally. You can use the following commands in the console:
 
-### `IGHelper.run(username)`
+### `II.run(username)`
 
 Manually triggers the analysis for a specific user.
 
 ```javascript
-IGHelper.run('YOUR_USER_HERE');
+II.run('YOUR_USER_HERE');
 ```
 
 ### Accessing Raw Data
@@ -64,7 +66,7 @@ You can access the raw data arrays in the console after a run:
 
 ```javascript
 // Filter for verified users who don't follow you back
-IGHelper.lastResult.notFollowingBack.filter(u => u.verified);
+II.lastResult.notFollowingBack.filter(u => u.verified);
 ```
 
 ## Configuration
@@ -95,8 +97,3 @@ You can tweak the constants at the top of the script to adjust speed and safety.
 -----
 
 *This project is not affiliated with, authorized, maintained, sponsored, or endorsed by Instagram, Meta, or any of its affiliates or subsidiaries.*
-
-
-
-Cookie “th_eu_pref” has been rejected for invalid domain
-Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://graph.instagram.com/logging_client_events. (Reason: CORS request did not succeed). Status code: (null).
