@@ -1,6 +1,6 @@
 /**
  * ====================================================================
- * instagram follower insights tool
+ * Instagram Insights
  * ====================================================================
  * description:
  * a script that analyzes your instagram followers and following lists
@@ -63,7 +63,7 @@
     };
 
     // console log wrapper
-    const log = (msg, type = 'reset') => console.log(`%c[IG Helper] %c${msg}`, style.info, style[type]);
+    const log = (msg, type = 'reset') => console.log(`%c[Instagram Insights] %c${msg}`, style.info, style[type]);
 
     // ========================================================
     // api client
@@ -199,7 +199,7 @@
     // ========================================================
     // main logic
     // ========================================================
-    window.IGHelper = {
+    window.II = {
         run: async function (username) {
             if (!username) {
                 return;
@@ -263,7 +263,7 @@
                     notFollowingBack,
                     fans
                 };
-                // log(`Tip: Type 'IGHelper.download()' to save as JSON.`);
+                // log(`Tip: Type 'II.download()' to save as JSON.`);
 
             } catch (e) {
                 log(`Fatal Error: ${e.message}`, 'error');
@@ -289,11 +289,11 @@
     // auto-run
     // ========================================================
     if (CONFIG.TARGET_USER && CONFIG.TARGET_USER !== "YOUR_USERNAME_HERE") {
-        IGHelper.run(CONFIG.TARGET_USER);
+        II.run(CONFIG.TARGET_USER);
     } else {
-        const inputUser = prompt("IG Helper: Enter username to analyze:", "");
+        const inputUser = prompt("Instagram Insights: Enter username to analyze:", "");
         if (inputUser) {
-            IGHelper.run(inputUser);
+            II.run(inputUser);
         }
     }
 })();

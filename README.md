@@ -1,17 +1,19 @@
-# Instagram Helper (Instagram Follower Insights)
+# Instagram Insights (Instagram Follower/Following Comparison tool)
+
+## Cause why be someones fan for no reason?
 
 A browser-based tool to analyze your Instagram connections. This script runs entirely in your browser console to compare your **Followers** vs. **Following** lists, identifying who isn't following you back and who you aren't following back.
 
-> **Read:** Instagram will say STOP when you open the console. This tool operates entirely on the client side. No data is sent to external servers. Everything happens within your browser's memory. You can close the browser once finished.
+> **Read:** Instagram will say STOP when you open the console. **This tool operates entirely on the client side. No data is sent to external servers. Everything happens within your browser's memory.** You can close the browser once finished.
 
 ## Usage
 
-1. Click on `instagramNotFollowing.js`
+1. Click on `InstagramInsights.js`
 
-![image](Screenshot_20251206_155044.png)
+![image]()
 
 2. Click copy raw file
-![image](image.png)
+![image]()
 
 3.  **Log in** to your account on [instagram.com](https://www.instagram.com).
 
@@ -92,3 +94,8 @@ You can tweak the constants at the top of the script to adjust speed and safety.
 -----
 
 *This project is not affiliated with, authorized, maintained, sponsored, or endorsed by Instagram, Meta, or any of its affiliates or subsidiaries.*
+
+
+
+Cookie “th_eu_pref” has been rejected for invalid domain
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://graph.instagram.com/logging_client_events. (Reason: CORS request did not succeed). Status code: (null).
