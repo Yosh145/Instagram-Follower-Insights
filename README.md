@@ -10,21 +10,22 @@ A browser-based tool to analyze your Instagram connections. This script runs ent
 
 1. Click on `InstagramInsights.js`
 
-![image]()
+![image](SS1.png)
 
 2. Click copy raw file
-![image]()
+![image](SS2.png)
 
 3.  **Log in** to your account on [instagram.com](https://www.instagram.com).
 
 4.  Open the **Developer Tools**:
       * Windows/Linux: `F12` or `Ctrl + Shift + J`
       * Mac: `Cmd + Option + J`
+      * OR (right click) -> Inspect (Element)
 
 5.  Navigate to the **Console** tab.
 
 6.  **Copy and Paste** the entire script into the console.
-![image](Screenshot_20251206_153043.png)
+![image](SS3.png)
 
 7.  **Press Enter**.
       * *If you did not edit the username in the script, a prompt will appear asking for the target username.*
