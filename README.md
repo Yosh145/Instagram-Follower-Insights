@@ -6,18 +6,30 @@ A browser-based tool to analyze your Instagram connections. This script runs ent
 
 ## Usage
 
-1.  **Log in** to your account on [instagram.com](https://www.instagram.com).
-2.  Open the **Developer Tools**:
+1. Click on `instagramNotFollowing.js`
+
+![image](Screenshot_20251206_155044.png)
+
+2. Click copy raw file
+![image](image.png)
+
+3.  **Log in** to your account on [instagram.com](https://www.instagram.com).
+
+4.  Open the **Developer Tools**:
       * Windows/Linux: `F12` or `Ctrl + Shift + J`
       * Mac: `Cmd + Option + J`
-3.  Navigate to the **Console** tab.
 
-4.  **Copy and Paste** the entire script into the console.
+5.  Navigate to the **Console** tab.
+
+6.  **Copy and Paste** the entire script into the console.
 ![image](Screenshot_20251206_153043.png)
-5.  **Press Enter**.
+
+7.  **Press Enter**.
       * *If you did not edit the username in the script, a prompt will appear asking for the target username.*
-6.  Wait for the analysis to complete. Do not close the tab.
-7. Console will clear when finished, and output the THESE ACCOUNTS DO NOT FOLLOW YOU BACK and YOU DO NOT FOLLOW BACK THESE ACCOUNTS
+
+8.  Wait for the analysis to complete. Do not close the tab.
+
+9. Console will clear when finished, and output the THESE ACCOUNTS DO NOT FOLLOW YOU BACK and YOU DO NOT FOLLOW BACK THESE ACCOUNTS
 
 ## Features
 
